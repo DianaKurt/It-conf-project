@@ -13,14 +13,14 @@
                 <a href="" class="header-logo__link">АЙТИ-КОНФА
                 </a>
                 <nav class="nav">
-                    <a href="" class="nav-link">Главная</a>
-                    <a href="" class="nav-link">Спикеры</a>
-                    <a href="" class="nav-link">Почему мы</a>
-                    <a href="" class="nav-link">Купить билет</a>
+                    <a href="#hero" class="nav-link">Главная</a>
+                    <a href="#speakers" class="nav-link">Спикеры</a>
+                    <a href="#advantages" class="nav-link">Почему мы</a>
+                    <a href="#prices" class="nav-link">Купить билет</a>
                 </nav>
             </div>
         </header>
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="hero-top">
                 <p>18-20 августа 2026</p>
                 <p>г. Алматы, Казахстан</p>
@@ -32,7 +32,7 @@
             </div>
             <img src="images/wifi.svg" alt="wifi" class="hero-wifi">
         </section>
-        <section class="speakers">
+        <section class="speakers" id="speakers">
             <div class="section-top">
                 <h2 class="title-h2">Спикеры</h2>
                 <p class="section-description">Ради них можно бросить все дела и погрузиться в доклад</p>
@@ -68,39 +68,91 @@
                 </div>
             </div>
         </section>
-        <section class="advantages">
+        <section class="advantages" id="advantages">
             <div class="section-top">
                 <h2 class="title-h2">Почему Мы?</h2>
                 <p class="section-description">Узнай, почему АйтиКонфа - лучшее мероприятие для IT-специалистов в Алматы</p>
             </div>
+            <div class="advantages-grid">
+                <div class="advantage-item">
+                    <img src="images/01.svg" alt="advantage1" class="advantage-item__image">
+                    <div class="advantage-info">
+                        <h3 class="advantage-item__title">Современные тренды</h3>
+                        <p class="advantage-item__description">Мы предоставляем вам актуальную информацию о последних технологиях и тенденциях в мире IT</p>
+                    </div>
+                </div>
+                <div class="advantage-item">
+                    <img src="images/02.svg" alt="advantage2" class="advantage-item__image">
+                    <div class="advantage-info">
+                        <h3 class="advantage-item__title">Практическое обучение</h3>
+                        <p class="advantage-item__description">Участвуйте в воркшопах и мастер-классах, чтобы практиковать свои навыки</p>
+                    </div>
+                </div>
+                <div class="advantage-item">
+                    <img src="images/03.svg" alt="advantage3" class="advantage-item__image">
+                    <div class="advantage-info">
+                        <h3 class="advantage-item__title">Нетворкинг без границ</h3>
+                        <p class="advantage-item__description">Соберитесь с новыми знакомыми и обсудите последние разработки вместе</p>
+                    </div>
+                </div>
+                <div class="advantage-item">
+                    <img src="images/04.svg" alt="advantage4" class="advantage-item__image">
+                    <div class="advantage-info">
+                        <h3 class="advantage-item__title">Выстовка иноваций</h3>
+                        <p class="advantage-item__description">Покажите свою работу и получите обратную связь от специалистов и инвесторов</p>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="prices">
+        <section class="prices" id="prices">
             <div class="section-top">
                 <h2 class="title-h2">Купить билеты</h2>
                 <p class="section-description">Забронируй билеты на АйтиКонфу и не пропусти мастер-классы, семинары и дискуссии с ведущими специалистами</p>
+            </div>
+            <div class="price-grid">
+                <div class="price-item">
+                    <div class="price-top">
+                        <h3 class="price-item__title">Рання пташка</h3>
+                        <p class="price-item__description">до 15.07.2026</p>
+                    </div>
+                    <div class="price-bottom">
+                        <p class="price-item-main">5 990 т</p>
+                        <a href="" class="btn">Купить билет</a>
+                    </div>
+                </div>
+                <div class="price-item">
+                    <div class="price-top">
+                        <h3 class="price-item__title">Стандарт</h3>
+                        <p class="price-item__description">записи докладов и участия в семинарах</p>
+                    </div>
+                    <div class="price-bottom">
+                        <p class="price-item-main">23 990 т</p>
+                        <a href="" class="btn">Купить билет</a>
+                    </div>
+                </div>
+                <div class="price-item">
+                    <div class="price-top">
+                        <h3 class="price-item__title">Вип</h3>
+                        <p class="price-item__description">+ личные встречи со спикерами без очереди</p>
+                    </div>
+                    <div class="price-bottom">
+                        <p class="price-item-main">55 990 т</p>
+                        <a href="" class="btn">Купить билет</a>
+                    </div>
+            </div>
         </section>
-        <div class="advantages-grid">
-            <div class="advantage-item">
-                <img src="images/01.svg" alt="advantage1" class="advantage-item__image">
-                <h3 class="advantage-item__title">Опытные спикеры</h3>
-                <p class="advantage-item__description">Наши спикеры имеют большой опыт в своей области и готовы поделиться своими знаниями с вами</p>
+        <footer>
+            <div class="footer">
+                <a href="" class="footer-logo">АйтиКонфа</a>
+                <a href="" class="footer-link">Публичная оферта</a>
+                <a href="" class="footer-link">Политика конфиденциальности</a>
+                <a href="mailto:support@itconf.kz" class="footer-link _email">support@itconf.kz</a>
+                <span class="footer-copyright">© 2026 АйтиКонфа. Все права защищены.</span>
             </div>
-            <div class="advantage-item">
-                <img src="images/02.svg" alt="advantage2" class="advantage-item__image">
-                <h3 class="advantage-item__title">Опытные спикеры</h3>
-                <p class="advantage-item__description">Наши спикеры имеют большой опыт в своей области и готовы поделиться своими знаниями с вами</p>
-            </div>
-            <div class="advantage-item">
-                <img src="images/03.svg" alt="advantage3" class="advantage-item__image">
-                <h3 class="advantage-item__title">Опытные спикеры</h3>
-                <p class="advantage-item__description">Наши спикеры имеют большой опыт в своей области и готовы поделиться своими знаниями с вами</p>
-            </div>
-            <div class="advantage-item">
-                <img src="images/04.svg" alt="advantage4" class="advantage-item__image">
-                <h3 class="advantage-item__title">Опытные спикеры</h3>
-                <p class="advantage-item__description">Наши спикеры имеют большой опыт в своей области и готовы поделиться своими знаниями с вами</p>
-            </div>
-        </div>
+        </footer>
     </div>
+    <script src="scripts/gsap.min.js"></script>
+    <script src="scripts/ScrollToPlugin.min.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
